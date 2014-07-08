@@ -225,13 +225,13 @@ h6 {
 }
 
 a {
-    color: #FDACAC;
+    color: #02779E;
     transition: color ease 0.3s;
     text-decoration: none;
 }
 
 a:hover {
-    color: #57A3E8;
+    color: #CDD7B6;
     text-decoration: none;
 }
 
@@ -437,7 +437,7 @@ margin on the iframe, cause it breaks stuff. */
 .inner {
     position: relative;
     width: 80%;
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -507,7 +507,7 @@ margin on the iframe, cause it breaks stuff. */
 .post {
     position: relative;
     width:80%;
-    max-width: 700px;
+    max-width: 900px;
     margin: 4rem auto;
     padding-bottom: 4rem;
     border-bottom: #AED5F2 1px solid;
@@ -727,7 +727,6 @@ margin on the iframe, cause it breaks stuff. */
 /* Create some space to the right for the share links */
 .post-footer .author {
     margin-right: 180px;
-    margin-left:120px;
     vertical-align: top;
 }
 
