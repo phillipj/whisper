@@ -457,12 +457,16 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     display: table;
     width: 100%;
-    height: 60%;
+    height: 50%;
     margin-bottom: 5rem;
     text-align: center;
     color: #fff;
-    background: #97d7ff no-repeat center center;
+    background: #61A598 no-repeat center center;
     background-size: cover;
+}
+
+.site-head.small {
+    height: 30%;
 }
 
 .blog-logo {
@@ -480,13 +484,13 @@ margin on the iframe, cause it breaks stuff. */
 
 /* The details of your blog. Defined in ghost/settings/ */
 .blog-title {
-    margin: 10px 0 10px 0;
+    margin: 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     text-shadow: 0 1px 6px rgba(0,0,0,0.1);
-    color:#fff076;
+    color:#FAD34E;
 }
 
 .blog-description {
@@ -506,7 +510,7 @@ margin on the iframe, cause it breaks stuff. */
     max-width: 700px;
     margin: 4rem auto;
     padding-bottom: 4rem;
-    border-bottom: #6ec6fc 1px solid;
+    border-bottom: #AED5F2 1px solid;
     word-break: break-word;
     hyphens: auto;
 }
@@ -541,7 +545,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .post-title a:hover {
-    color: #57A3E8;
+    color: #02779E;
 }
 
 .post-excerpt p {
@@ -559,11 +563,11 @@ margin on the iframe, cause it breaks stuff. */
     margin: 0 0 5px 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
-    color: #FCC471;
+    color: #FF8800;
 }
 
 .post-meta a {
-    color: #6ec6fc;
+    color: #4E9CB5;
     text-decoration: none;
 }
 
@@ -638,13 +642,15 @@ margin on the iframe, cause it breaks stuff. */
 
 /* Insert some mad padding up in the header for better spacing */
 .post-template .post-header {
-    padding: 60px 0;
+    padding: 30px 0;
     text-align: center;
+    background: #61A598 no-repeat center center;
+    margin-bottom: 30px;
 }
 
 .post-template .blog-title {
     display: inline-block;
-    padding: 2.5rem 0;
+    padding: 10px 0;
 }
 
 /* Keep images centred and within the bounds of the post-width */
@@ -752,14 +758,14 @@ margin on the iframe, cause it breaks stuff. */
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-color: rgb(255, 123, 123);
+    background-color: rgb(255,136,0);
     line-height: 33px;
     text-align: center;
     border-radius: 5px;
 }
 
 .post-footer .share a:hover {
-    color: #50585D;
+    color: #02779E;
 }
 
 
@@ -877,11 +883,11 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 1.7em;
     color: #fff;
     text-align: center;
-    background: #6ec6fc;
+    background: #61A598;
 }
 
 .site-footer a {
-    color: #B8FFC9;
+    color: #CDD7B6;
     text-decoration: underline;
 }
 
@@ -999,8 +1005,14 @@ margin on the iframe, cause it breaks stuff. */
         padding: 15% 0;
     }
 
+    .site-head.small {
+        height: 20%;
+        min-height: 0px;
+        padding: 0;
+    }
+
     .blog-title {
-        font-size: 4rem;
+        font-size: 3rem;
         letter-spacing: -1px;
     }
 
@@ -1020,6 +1032,10 @@ margin on the iframe, cause it breaks stuff. */
 
     .post-template .post-header {
         padding: 40px 0;
+    }
+
+    .post-template .blog-title {
+        padding: 0;
     }
 
     h1 {
@@ -1189,8 +1205,8 @@ ul.social {
     display: block;
     list-style: none;
     padding: 0px;
-    margin: auto;
-    margin-top: 20px;
+    margin: 20px auto;
+    /*margin-top: 20px;*/
 }
 
 ul.social li {
