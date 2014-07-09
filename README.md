@@ -4,6 +4,8 @@
 
 Mainly customized to my own likings and applyed the [Possibilities](http://www.colourlovers.com/palette/2914885/Possibilities) color palette.
 
+Demo can be viewed at my blog on [lightweight.no](http://lightweight.no).
+
 ## Copyright & License
 
 Copyright (c) 2014 Phillip Johnsen - Released under the MIT License.
